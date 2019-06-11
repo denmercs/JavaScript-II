@@ -149,6 +149,19 @@ const runners = [{"id":1,"first_name":"Charmain","last_name":"Seiler","email":"c
 // Problem 3
 /** list of all shirts ordered */
     let shirtOrders = runners.map(runner => runner.shirt_size);
+    
+    let shirt2XL = runners.filter(person => person.shirt_size === "2XL");
+    let shirtXL = runners.filter(person => person.shirt_size === "XL");
+    let shirtL = runners.filter(person => person.shirt_size === "L");
+    let shirtM = runners.filter(person => person.shirt_size === "M");
+    let shirtS = runners.filter(person => person.shirt_size === "S");
+    console.log(`
+        2XL shirt order: ${shirt2XL.length}
+        XL shirt order: ${shirtXL.length}
+        L shirt order: ${shirtL.length}
+        M shirt order: ${shirtM.length}
+        S shirt order: ${shirtS.length}
+    `);
 
     console.log(shirtOrders);
     

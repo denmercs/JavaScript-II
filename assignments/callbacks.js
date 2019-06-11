@@ -78,6 +78,7 @@ function sumNums(x, y, cb) {
 
   sumNums(4, 5, num => displayOutput(num));
 
+  /** PROBLEM */
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
