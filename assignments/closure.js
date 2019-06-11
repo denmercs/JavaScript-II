@@ -11,10 +11,24 @@ function car() {
   }
 
   console.log(`${name} is the car!`);
-  wheels(4);
+  wheels(4); 
 }
 
 car();
+
+/** advance closure concepts */
+/**
+   function minus(x) {
+    return function(y) {
+      return x - y;
+    };
+  }
+
+  let value = minus(30); // function
+
+  console.log(value(5));
+
+*/
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
