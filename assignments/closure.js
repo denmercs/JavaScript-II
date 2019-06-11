@@ -23,7 +23,7 @@ car();
       return x - y;
     };
   }
-
+ 
   let value = minus(30); // function
 
   console.log(value(5));
